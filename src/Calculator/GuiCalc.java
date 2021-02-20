@@ -106,8 +106,8 @@ public class GuiCalc extends JFrame {
     button.setActionCommand(name);  // добавление имени команды в кнопку для сравнения в ActionListener
     button.addActionListener(insert);
     button.setFont(button.getFont().deriveFont(16f));  //размер шрифта кнопок
-    if (name.equals("*")) button.setFont(button.getFont().deriveFont(27f)); // размер шрифта дя "*"
-    if (name.equals("-")) button.setFont(button.getFont().deriveFont(23f)); // размер шрифта дя "-"
+    if (name.equals("*")) button.setFont(button.getFont().deriveFont(27f)); // размер шрифта для "*"
+    if (name.equals("-")) button.setFont(button.getFont().deriveFont(23f)); // размер шрифта для "-"
     return button;
     }
     //конструктор GUI калькулятора
